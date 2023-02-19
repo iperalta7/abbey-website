@@ -3,34 +3,290 @@
 <html lang="en">
     <head>
         
-        <link rel="stylesheet" href="css/home.css">
         <title>Abbey's Crystals Homepage</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1" />    
+        <meta name="viewport" content="width=device-width,initial-scale=1" >    
+        <link rel="stylesheet" href="css/boostrap.css">
+        <link rel="stylesheet" href="css/home.css">
+        
     </head>
 
     <body>
 
-        <div class="header">
+      <header>
+          <div class="navbar-wrapper">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">
+                      <img class= "logo" src="images/abbeys-crystals-high-resolution-logo-black-on-transparent-background.png" alt="Abbey's Crystals Logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">About</a>
+                          <a class="dropdown-item" href="#">Announcements</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Contact</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Cart</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link admin" href="admin.html">Admin</a>
+                      </li>
 
-            <a href="#default" class="logo"><img src="images\abbeys-crystals-high-resolution-logo-black-on-transparent-background.png"></a>
-
-            <div class="header-right">
-
-                <a class="active" href="#home">Home</a>
-                <a href="#contact">Shop</a>
-                <a href="#about">Contact</a>
-                <a href="#about">Announcements</a>
-
-            </div>
-
+                    </ul>
+                  </div>
+                </nav>
           </div>
 
+            <!-- Background image -->
+      <div id="bground-image" class="p-5 text-center bg-image" style="height: 400px;">
+          <div class="mask">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Abbey's Crystal Shop</h1>
+                <h4 class="mb-3">Products for self healing and wellness</h4>
+                <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+                >View Products</a>
 
-        <div class="footer">
+                <div class="image-btn">
+                <div class="left-image"> <button onclick="changeLeft()" id="l-image" type="button"> Left </button></div>
+                <div class="right-image" > <button onclick="changeRight()" id="r-image" type ="button">Right</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
 
+      </header>
+      
+      <!-- Main -->
+      <div class="main-content">
+        <!-- Page content-->
+        <div class="container">
+            <div class="row">
+                <!-- Blog entries-->
+                <h2>Announcements</h2>
+                <div class="col-lg-8">
+                    <!-- Featured blog post-->
+                    <div class="card mb-4">
+                        <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." ></a>
+                        <div class="card-body">
+                            <div class="small text-muted">January 1, 2022</div>
+                            <h2 class="card-title">Dorm Store This Week!</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                            <a class="btn btn-primary" href="#!">Read more →</a>
+                        </div>
+                    </div>
+                    <!-- Nested row for non-featured blog posts-->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." ></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2022</div>
+                                    <h2 class="card-title h4">Post Title</h2>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                </div>
+                            </div>
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." ></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2022</div>
+                                    <h2 class="card-title h4">Post Title</h2>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." ></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2022</div>
+                                    <h2 class="card-title h4">Post Title</h2>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                </div>
+                            </div>
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." ></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2022</div>
+                                    <h2 class="card-title h4">Post Title</h2>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
+                                    <a class="btn btn-primary" href="#!">Read more →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pagination-->
+                    <nav aria-label="Pagination">
+                        <hr class="my-0">
+                        <ul class="pagination justify-content-center my-4">
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" >Newer</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Search widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" >
+                                <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">About Me</div>
+                        <div class="card-body">
+                            <div class="row">
+                              <img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." >
+                                <div class="col-sm-6">
+                                    <h3>[Image]</h3>
+                                    
+                                </div>
+                                  <p>Hi! My name is Abbey Lanier! PLease feel free to read the about me and contact page!</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Side widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Shop</div>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-sm-6">
+                                <h3>[Image]</h3>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                              <p></p>
+                            </div>
+                        </div>
+                              <div class="row">
+                                <img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." >
+                                <div class="col-sm-6">
+                                </div>
+                                <div class="col-sm-6">
+                                  <p></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                              <img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." >
+                              <div class="col-sm-6">
+                                  <h3>[Image]</h3>
+                                  
+                              </div>
+                              <div class="col-sm-6">
+                                <p></p>
+                              </div>
+                          </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
+      </div>
 
+
+      <!-- Footer -->
+      <div class="footer-wrapper"> 
+          <div class="container">
+            
+            <footer class="py-5">
+              <a class="navbar-brand" href="#">
+                  <img class= "logo" src="images/abbeys-crystals-high-resolution-logo-black-on-transparent-background.png" alt="Abbey's Crystals Logo">
+              </a>
+              <div class="row">
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Navigation</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="shop.html" class="nav-link p-0 text-muted">Shop</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Announcements</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Social Media</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Snapchat</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Email</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>In production by Isaiah Peralta. Email me @ <a href="mailto:iperalta@uri.edu">iperalta@uri.edu</a>.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+      </div>
+
+      <!-- Bootstrap Integration-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+      <script src="scripts/picture.js"></script>
     </body>
 
 </html>
