@@ -13,7 +13,7 @@
 
  @font-face {
   font-family: "Reforma";
-  src: url("/fonts/Reforma2018-Negra.otf"); 
+  src: url("../fonts/Reforma2018-Negra.otf"); 
 }
 body { 
   margin: 0;
