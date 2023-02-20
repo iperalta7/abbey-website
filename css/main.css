@@ -1,23 +1,13 @@
 @font-face {
-    font-family: Raleway-Regular;
-    src: url(../fonts/raleway/Raleway-Regular.ttf)
+    font-family: "Reforma-Gris";
+    src: url("../fonts/raleway/Reforma2018-Gris.ttf")
 }
+
 
 @font-face {
-    font-family: Raleway-Medium;
-    src: url(../fonts/raleway/Raleway-Medium.ttf)
+    font-family: "Reforma";
+    src: url("../fonts/Reforma2018-Negra.otf"); 
 }
-
-@font-face {
-    font-family: Raleway-SemiBold;
-    src: url(../fonts/raleway/Raleway-SemiBold.ttf)
-}
-
-@font-face {
-    font-family: Raleway-Bold;
-    src: url(../fonts/raleway/Raleway-Bold.ttf)
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -27,11 +17,11 @@
 body,
 html {
     height: 100%;
-    font-family: Raleway-Regular, sans-serif
+    font-family: Reforma, sans-serif
 }
 
 a {
-    font-family: Raleway-Regular;
+    font-family: Reforma, sans-serif;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -61,7 +51,7 @@ h6 {
 }
 
 p {
-    font-family: Raleway-Regular;
+    font-family: Reforma-Gris, sans-serif;
     font-size: 14px;
     line-height: 1.7;
     color: #666;
@@ -173,7 +163,7 @@ iframe {
 }
 
 .txt1 {
-    font-family: Raleway-SemiBold;
+    font-family: Reforma, sans-serif;
     font-size: 13px;
     color: #555;
     line-height: 1.4;
@@ -181,14 +171,14 @@ iframe {
 }
 
 .txt2 {
-    font-family: Raleway-Regular;
+    font-family: Refroma-Gris, sans-serif;
     font-size: 13px;
     color: #999;
     line-height: 1.4
 }
 
 .txt3 {
-    font-family: Raleway-Regular;
+    font-family: Reforma-Gris, sans-serif;
     font-size: 13px;
     color: #555;
     line-height: 1.4
@@ -226,7 +216,7 @@ iframe {
 }
 
 .login100-form-title {
-    font-family: Raleway-Medium;
+    font-family: Reforma, sans-serif;
     font-size: 30px;
     color: #555;
     line-height: 1.2;
@@ -245,7 +235,7 @@ iframe {
 }
 
 .input100 {
-    font-family: Raleway-Medium;
+    font-family: Reforma-Gris, sans-serif;
     color: #555;
     line-height: 1.2;
     font-size: 18px;
@@ -264,7 +254,7 @@ iframe {
     top: -1px;
     left: -1px;
     pointer-events: none;
-    border: 1px solid #57b846;
+    border: 1px solid #0040ff;
     border-radius: 3px;
     visibility: hidden;
     opacity: 0;
@@ -333,7 +323,7 @@ iframe {
 }
 
 .label-checkbox100 {
-    font-family: Raleway-Regular;
+    font-family: Reforma-Gris, sans-serif;
     font-size: 13px;
     color: #999;
     line-height: 1.4;
@@ -385,7 +375,7 @@ iframe {
 }
 
 .login100-form-btn {
-    font-family: Raleway-Bold;
+    font-family: Reforma;
     font-size: 16px;
     color: #fff;
     line-height: 1.2;
@@ -408,7 +398,7 @@ iframe {
 }
 
 .login100-form-btn:hover {
-    background-color: #57b846
+    background-color: #0000ff
 }
 
 .validate-input {
