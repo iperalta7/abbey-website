@@ -1,3 +1,5 @@
-.main-content{
-    margin: auto;
+#featured-post .card{
+    background-color: lightpink;
+    color: black;
 }
+

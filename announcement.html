@@ -66,12 +66,19 @@
 
     <!-- Main -->
     <div id="main" class="main-content m-5">
-        <h1>Announcements</h1>
+        <div class="d-flex justify-content-center">
+            <h1>Announcements</h1>
+        </div>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary p-2 m-3" data-toggle="modal" data-target="#exampleModal">
-            Add New Announcement
-        </button>
+        <div class="d-flex justify-content-center align-content-center">
+            <div class="justify-content-center">
+                <button type="button" class="btn btn-primary p-1 m-2" data-toggle="modal" data-target="#exampleModal">
+                Add New Announcement
+                </button>
+            </div>
+    
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -124,61 +131,6 @@
             <div class="col-2"></div>
         </div>
 
-        <!-- Nested row for non-featured blog posts-->
-        <div class="row w-75 justify-content-center">
-            <div class="col-lg-6">
-                <!-- Blog post-->
-                <div class="card mb-4">
-                    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg"
-                            alt="..."></a>
-                    <div class="card-body">
-                        <div class="small text-muted">January 1, 2022</div>
-                        <h2 class="card-title h4">Post Title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-                            aliquid atque, nulla.</p>
-                        <a class="btn btn-primary" href="#!">Read more →</a>
-                    </div>
-                </div>
-                <!-- Blog post-->
-                <div class="card mb-4">
-                    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg"
-                            alt="..."></a>
-                    <div class="card-body">
-                        <div class="small text-muted">January 1, 2022</div>
-                        <h2 class="card-title h4">Post Title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-                            aliquid atque, nulla.</p>
-                        <a class="btn btn-primary" href="#!">Read more →</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <!-- Blog post-->
-                <div class="card mb-4">
-                    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg"
-                            alt="..."></a>
-                    <div class="card-body">
-                        <div class="small text-muted">January 1, 2022</div>
-                        <h2 class="card-title h4">Post Title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-                            aliquid atque, nulla.</p>
-                        <a class="btn btn-primary" href="#!">Read more →</a>
-                    </div>
-                </div>
-                <!-- Blog post-->
-                <div class="card mb-4">
-                    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg"
-                            alt="..."></a>
-                    <div class="card-body">
-                        <div class="small text-muted">January 1, 2022</div>
-                        <h2 class="card-title h4">Post Title</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-                            aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
-                        <a class="btn btn-primary" href="#!">Read more →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Pagination-->
         <nav aria-label="Pagination">
             <hr class="my-0">
@@ -264,15 +216,18 @@
     <!-- Bootstrap Integration-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
         integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 
-        <script src="scripts/announcement.js"></script>
+    <script src="scripts/announcement.js"></script>
 </body>
 
 </html>
