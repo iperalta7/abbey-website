@@ -35,28 +35,22 @@ for creating new elements and nodes for the new announcement
 */
 function newAnnouncement(){
     var data = getFormData();
-    let title = data.$title,
-    details = data.$details;
+    let title = data.$title, details = data.$details;
 
     //default div for row containement of  announcement post
     var $div_row = $("<div></div>").addClass("row");
 
     //empty div (bootstrap grid)
     var $empty_col_div = $("<div></div>").addClass("col-2");
-
     $div_row.append($empty_col_div);
 
-    //div for actual post
-    var $post = $("<div></div>").addClass("col d-flex justify-content-center text-center").attr("id", "featured-post");
+    var $post = $("<div></div>").addClass("col d-flex justify-content-center text-center").attr("id", "featured-post");     //div for actual post
 
-    //div for card 
-    var $card = $("<div></div>").addClass("card mb-4");
+    var $card = $("<div></div>").addClass("card mb-4");     //div for card 
 
-    //div for a 
-    var $img_container = $("<a></a>").attr("href", "#!");
+    var $img_container = $("<a></a>").attr("href", "#!");     //div for a 
 
-    //img 
-    var $new_img = $("<img></img>").addClass("card-img-top").attr({
+    var $new_img = $("<img></img>").addClass("card-img-top").attr({     //img 
         "src": "https://dummyimage.com/850x350/dee2e6/6c757d.jpg",
         "alt": "..."
     });
@@ -79,7 +73,7 @@ function newAnnouncement(){
     var $ptext = $("<p></p>").addClass("card-text").text(details);
     $card_body.append($ptext);
 
-    var $new_btn = $("<a></a>").addClass("btn btn-primary").attr("href", "#!");
+    var $new_btn = $("<a></a>").addClass("btn btn-primary read-more-btn").attr("href", "#!").text("Read more →");
     $card_body.append($new_btn);
     
 
@@ -92,13 +86,26 @@ function newAnnouncement(){
     $div_row.append(empty_col_div2);   
 
 
-      //change recent announcement to featured
-      change_first_announcement();
+    //change recent announcement to featured
+    change_first_announcement();
 
     //insert new div row before the first .row found
     $(".row").first().before($div_row);
-
+    $(".card-text").slideUp();
 }      
 
 //event listener to form "submit" button
 $("#add-btn").on("click",newAnnouncement);
+
+
+
+//slide up announcements
+$(".card-text").each(function() {
+    $(this).hide();
+});
+
+$("#main").on("click",".read-more-btn" ,function(){
+    console.log("CLikcked!");
+    $(this).siblings(".card-text").slideToggle("slow");
+
+});
