@@ -1,0 +1,49 @@
+{
+   "crystal" : [
+    {
+        "name": "Rhodonite",
+        "price": 4,
+        "description": "Rhodonite is a stone of compassion, an emotional balancer that clears away emotional wounds and scars from the past, and that nurtures love. It stimulates, clears and activates the heart. Rhodonite grounds energy, balances yin-yang, and aids in achieving one's highest potential."
+    },
+    {
+        "name": "Kyanite",
+        "price": 2,
+        "description": "Kyanite is a stone of connection, opening the mind's pathways and enhancing one's psychic abilities. It is a calming stone that brings tranquility and balance, making it ideal for meditation and attunement. Kyanite also aids in communication and self-expression, encouraging truth and honesty."
+    },
+    {
+        "name": "Hematite",
+        "price": 4,
+        "description": "Hematite is a stone of grounding, stability, and protection. It balances and harmonizes the mind, body, and spirit, and helps to dissolve negative energy and transform it into positive vibrations. Hematite also enhances focus, concentration, and willpower, making it useful for overcoming addictions and compulsions."
+    },
+    {
+        "name": "Rose Quartz",
+        "price": 4,
+        "description": "Rose Quartz is a stone of unconditional love and infinite peace, promoting forgiveness, compassion, and harmony. It carries a soft, gentle energy of compassion and peace, tenderness and healing, nourishment and comfort. Rose Quartz also helps to open the heart, enhancing self-love, self-esteem, and self-worth."
+    },
+    {
+        "name": "Turquoise",
+        "price": 5,
+        "description": "Turquoise is a stone of purification, serenity, and wisdom. It is a protective stone that has been used for amulets and talismans for centuries, and is believed to provide strength, healing, and good fortune. Turquoise also aids in communication, self-expression, and creativity."
+    },
+    {
+        "name": "Sodalite",
+        "price": 3,
+        "description": "Sodalite is a stone of logic, rationality, and efficiency. It helps to bring order and calmness to the mind, enhancing clarity, insight, and intuition. Sodalite also promotes self-esteem, self-trust, and self-acceptance, making it useful for overcoming feelings of guilt, shame, or inferiority."
+    },
+    {
+        "name": "Fluorite",
+        "price": 2,
+        "description": "Fluorite is a stone of mental clarity, focus, and concentration. It helps to organize and process information, enhancing memory, learning, and decision-making. Fluorite also protects against electromagnetic pollution and psychic manipulation, and can be used to boost intuition and spiritual awareness."
+    },
+    {
+        "name": "Orange Calcite",
+        "price": 4,
+        "description": "Orange Calcite is a stone of creativity, confidence, and vitality. It enhances sexual and creative energies, and helps to remove emotional blockages and self-limiting beliefs. Orange Calcite also promotes emotional intelligence, empathy, and compassion, and can be used to heal emotional wounds and traumas."
+    },
+    {
+        "name": "Green Aventurine",
+        "price": 5,
+        "description": "Green Aventurine is a stone of prosperity, success, and abundance. It helps to attract wealth and opportunities, and supports one's efforts to achieve their goals and dreams. Green Aventurine also enhances creativity, imagination, and inspiration, and can be used to promote emotional balance, harmony, and tranquility. It is a heart chakra stone that encourages compassion, empathy, and understanding, and helps to heal emotional wounds and traumas."
+    }
+]
+}

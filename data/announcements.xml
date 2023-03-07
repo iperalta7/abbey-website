@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<announcements>
+  <announcement>
+    <title>DORM STORE CANCELLED</title>
+    <date>2023-03-01</date>
+    <content>Unfortunately I amm going to have to cancel dorm store this week! I am so sorry.</content>
+  </announcement>
+  <announcement>
+    <title>New items this week!</title>
+    <date>2023-03-02</date>
+    <content>This week there will be new items: such as crystals and jewerly like necklaces and rings!</content>
+  </announcement>
+  <announcement>
+    <title>New Website in Development!</title>
+    <date>2023-03-03</date>
+    <content>Hi everyone a new website in is in development! Please be sure to stay in touch and help support!</content>
+  </announcement>
+</announcements>

@@ -143,4 +143,15 @@ function newAnnouncement(){
 //event listener to form "submit" button
 newBtn.addEventListener('click', newAnnouncement);
 
+$('modal').effect('bounce', {times:5}, 1000);
 
+
+
+//slide up announcements
+$('.read-more-btn').click( function(){
+
+    $(this).$(".card-text").slideUp("slow");
+    console.log($(this).$(".card-text"));
+});
+
+$("card-text").hide();

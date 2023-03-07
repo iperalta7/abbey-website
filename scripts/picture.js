@@ -59,5 +59,6 @@ function changeLeft(){
 
 //this changes the images every 10 seconds
  window.onload = function () {
+    $(".logo").slideDown(1000);
      setInterval(changeRight, 10000);
  };
